@@ -1,3 +1,23 @@
-body{
-    background-color: darkmagenta;
+/* #1B5C00, #5EB13B, #C3FFAA [Green Stuff]| #5C001E, #B13B62, #FFAAC6 [Maroon(?)]| #41005C, #8F3BB1, #E6AAFF [PURPLE!!!]|
+/* ---------------Box Sizing----------------- */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+ 
+/* Skip link utility: hidden until focused */
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
