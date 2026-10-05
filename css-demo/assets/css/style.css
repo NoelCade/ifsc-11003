@@ -21,3 +21,9 @@ html {
   white-space: nowrap;
   width: 1px;
 }
+
+/* ---------------Global Styles----------------- */
+.container{
+  width:80vw;
+  
+}
